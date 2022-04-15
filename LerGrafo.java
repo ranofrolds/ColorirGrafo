@@ -24,7 +24,7 @@ public class LerGrafo {
             aux=br.readLine();
             while(aux!=null){
                 aresta=aux.split(" ");
-                g.adj.adicionarAdjacente(Integer.parseInt(aresta[0]), Integer.parseInt(aresta[1]));
+                g.adj.adicionarAdjacente(Integer.parseInt(aresta[0])-1, Integer.parseInt(aresta[1])-1);
                 aux=br.readLine();
             }   
         }

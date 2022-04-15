@@ -6,7 +6,7 @@ public class Vertice {
 
     public Vertice(int n) {
         this.valor = n;
-        this.cor="branco";
+        this.cor="null";
     }
 
 }

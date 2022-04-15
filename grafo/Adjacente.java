@@ -14,6 +14,7 @@ public class Adjacente {
 
     public void adicionarAdjacente(int i, int j) {
         listaAdj[i].add(j);
+        listaAdj[j].add(i);
     }
 
 }
