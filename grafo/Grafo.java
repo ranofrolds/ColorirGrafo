@@ -5,7 +5,7 @@ public class Grafo {
     public Adjacente adj;
     public int numVet;
 
-    public Grafo(){
+    public Grafo() {
 
     }
 
